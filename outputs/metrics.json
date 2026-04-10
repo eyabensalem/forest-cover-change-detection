@@ -1,0 +1,34 @@
+{
+  "total_pixels": 324900,
+  "vegetation_pixels_t0": 59706,
+  "vegetation_pixels_t1": 61245,
+  "vegetation_fraction_t0": 0.1837673130193906,
+  "vegetation_fraction_t1": 0.18850415512465374,
+  "lost_pixels": 45898,
+  "gained_pixels": 47437,
+  "net_change_pixels": 1539,
+  "net_loss_ratio_formula": -0.025776303889056378,
+  "direct_loss_ratio": 0.7687334606237229,
+  "image_t0": "outputs/preprocessed_images/16_t0_preprocessed.png",
+  "image_t1": "outputs/preprocessed_images/17_t1_preprocessed.png",
+  "t0_label": "etat avant",
+  "t1_label": "etat apres",
+  "feature_set": "r, g, b, h, s, v, green_ratio, local_mean, local_variance",
+  "vegetation_cluster_t0": 2,
+  "vegetation_cluster_t1": 3,
+  "vegetation_scores_t0": [
+    0.3440137207508087,
+    0.377610981464386,
+    0.3846590220928192,
+    0.356548547744751
+  ],
+  "vegetation_scores_t1": [
+    0.3369455635547638,
+    0.3533119261264801,
+    0.34196895360946655,
+    0.3623400628566742
+  ],
+  "n_clusters": 4,
+  "summary_figure": "outputs/analysis_summary.png",
+  "interpretation_note": "La carte de changement est interpretable uniquement si t0 et t1 couvrent bien la meme zone et sont spatialement comparables."
+}
