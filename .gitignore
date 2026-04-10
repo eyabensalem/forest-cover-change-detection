@@ -1,0 +1,29 @@
+# ===== ENV =====
+.env
+
+# ===== VENV =====
+venv/
+env/
+
+# ===== PYTHON =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== NOTEBOOK =====
+.ipynb_checkpoints/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+
+
+
+# ===== LOGS =====
+*.log
+
+# ===== IDE =====
+.vscode/
+.idea/
