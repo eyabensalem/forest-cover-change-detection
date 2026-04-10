@@ -88,6 +88,9 @@ Les résultats seront générés dans le dossier `outputs/`.
 
 👉 Permet de comprendre les différences globales entre les deux dates.
 
+## 🖼️ Images initiales
+
+![Images initiales](outputs/01_images_initiales.png)
 ---
 
 ### 2. Prétraitement
@@ -97,6 +100,9 @@ Les résultats seront générés dans le dossier `outputs/`.
 
 👉 Objectif : améliorer la qualité visuelle et rendre les structures plus discriminantes.
 
+## ⚙️ Prétraitement
+
+![Images prétraitées](outputs/04_images_pretraitees.png)
 ---
 
 ### 3. Représentation des pixels
@@ -132,7 +138,13 @@ Les résultats seront générés dans le dossier `outputs/`.
   * variance locale
 
 👉 Permet de construire une **carte de changement**
+## 🌿 Ratio vert
 
+![Ratio vert t0](outputs/05_ratio_vert_t0.png)
+![Ratio vert t1](outputs/06_ratio_vert_t1.png)
+## 🔥 Carte de changement
+
+![Change map](outputs/11_change_map.png)
 ---
 
 ### 6. Génération du masque
@@ -142,7 +154,9 @@ Les résultats seront générés dans le dossier `outputs/`.
 * Suppression des petites zones
 
 👉 Permet d’isoler les zones de changement significatif
+## 🎯 Détection finale
 
+![Change mask](outputs/13_change_mask_nettoye.png)
 ---
 
 ## 📊 Résultats
